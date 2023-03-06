@@ -1,9 +1,14 @@
-#include <iostream>
 
-using namespace std;
+#include "hour1/Hour1.h"
+
+
+
 
 int main()
 {
-    cout << "Hello World!" << endl;
+
+    // HOUR1
+    MerhabaDunya();
+
     return 0;
 }
