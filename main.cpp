@@ -15,6 +15,12 @@ int main()
     //HOUR2
     std::cout << add (16,7) << std::endl;
 
+    //
+    std::cout << subtraction(11,5) << std::endl;
+
+    std::cout << multiply(11,5) << std::endl;
+
+    std::cout << division(6,6) << std::endl;
 
     return 0;
 }
