@@ -79,7 +79,8 @@ int beforeafter (int k, int l, int z){
         // if komutu örneği
        int  ifkomutu (int e){
 
-           std::cout <<"Enter a grade (1-100): ";
+           std:: cout <<"Enter a grade (1-100): ";
+
            if (e<=70)
              std::cout <<"\nPass\n";
 
@@ -88,9 +89,29 @@ int beforeafter (int k, int l, int z){
            else
                std:: cout <<"\nFail\n";
            return (e);
-       // if ile dışarıdan parametre alıcaz!!
-
-
        }
+       // if ile dışarıdan parametre alıcaz!!ve iç içe if komutlarını yapamadım
+
+           int ornek2 (int zombies ){
+
+               if (zombies ==0)
+
+                   std:: cout <<"no more zombies\n";
+
+               else
+
+                   std::cout <<"Beware the zombie apocalypse!\n";
+
+               return (zombies);
+"
+
+
+
+           }
+
+
+
+
+
 
 #endif // HOUR2_H

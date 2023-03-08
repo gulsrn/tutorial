@@ -43,5 +43,11 @@ int main()
 
     std:: cout << ifkomutu (66)<< std:: endl;
 
+
+    // diğer örnek
+
+     std:: cout  << ornek2 (0) <<std:: endl;
+
+
     return 0;
 }
