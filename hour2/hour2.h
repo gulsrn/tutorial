@@ -41,13 +41,56 @@ int beforeafter (int k, int l, int z){
     std:: cout <<" z: " << z <<"\n\n";
     std:: cout << "after\n\n  k: "<<k <<" l:"<<l ;
     std:: cout <<" z: " << z <<"\n";
-   return(z=k=l+13);
 
-
-
+    return(z=k=l+13);
+    //ekrana yeni değeri atayamadım.
+    }
+       int toplamatama (int a){
+    return (++a);
 }
 
+       int toplamatamaa (int b){
+    return (b++);
+}
+       // arttırma örneği
+
+       int arttırma (int year){
+           std:: cout << "the year " << ++year <<"passes. \n";
+           std:: cout << "the year " << ++year <<"passes. \n";
+           std:: cout << "the year " << ++year <<"passes. \n";
+           std:: cout <<"\n It is now:" <<year << ".\n\n";
+
+           std:: cout << "the year " << year++ <<"passes. \n";
+           std:: cout << "the year " << year++ <<"passes. \n";
+           std:: cout << "the year " << year++ <<"passes. \n";
+           std:: cout << "\nIt is now" <<year <<".";
 
 
+     return (year);
+       }
+
+       //öncelik
+       int oncelik (int p){
+
+           return (p);
+
+
+       }
+        // if komutu örneği
+       int  ifkomutu (int e){
+
+           std::cout <<"Enter a grade (1-100): ";
+           if (e<=70)
+             std::cout <<"\nPass\n";
+
+           else if (e<=100)
+               std:: cout <<"\n yes\n";
+           else
+               std:: cout <<"\nFail\n";
+           return (e);
+       // if ile dışarıdan parametre alıcaz!!
+
+
+       }
 
 #endif // HOUR2_H
