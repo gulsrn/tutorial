@@ -21,6 +21,12 @@ int main()
     std::cout << multiply(11,5) << std::endl;
 
     std::cout << division(6,6) << std::endl;
+     // HOUR3
+
+
+     std::cout <<beforeafter (0,72,0) <<std::endl;
+
+
 
     return 0;
 }

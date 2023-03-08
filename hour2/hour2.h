@@ -36,6 +36,17 @@ float division (float c,  float g){
 
 }
 
+int beforeafter (int k, int l, int z){
+    std:: cout << "before\n\n k: "<<k <<" l:"<<l ;
+    std:: cout <<" z: " << z <<"\n\n";
+    std:: cout << "after\n\n  k: "<<k <<" l:"<<l ;
+    std:: cout <<" z: " << z <<"\n";
+   return(z=k=l+13);
+
+
+
+}
+
 
 
 
