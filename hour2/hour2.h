@@ -11,7 +11,7 @@
 int add(int x, int y){
     return (x+y);
 }
- //
+//
 
 int subtraction (int a, int b){
 
@@ -32,82 +32,101 @@ int  multiply (int i, int j ){
 
 float division (float c,  float g){
 
- return (c/g);
+    return (c/g);
 
 }
 
 int beforeafter (int k, int l, int z){
     std:: cout << "before\n\n k: "<<k <<" l:"<<l ;
     std:: cout <<" z: " << z <<"\n\n";
+
+    int returnvalue = z = k = l + 13;
+
     std:: cout << "after\n\n  k: "<<k <<" l:"<<l ;
     std:: cout <<" z: " << z <<"\n";
 
-    return(z=k=l+13);
+    return(returnvalue);
     //ekrana yeni değeri atayamadım.
-    }
-       int toplamatama (int a){
+}
+int toplamatama (int a){
     return (++a);
 }
 
-       int toplamatamaa (int b){
+int toplamatamaa (int b){
     return (b++);
 }
-       // arttırma örneği
+// arttırma örneği
 
-       int arttırma (int year){
-           std:: cout << "the year " << ++year <<"passes. \n";
-           std:: cout << "the year " << ++year <<"passes. \n";
-           std:: cout << "the year " << ++year <<"passes. \n";
-           std:: cout <<"\n It is now:" <<year << ".\n\n";
+int arttırma (int year){
+    std:: cout << "the year " << ++year <<"passes. \n";
+    std:: cout << "the year " << ++year <<"passes. \n";
+    std:: cout << "the year " << ++year <<"passes. \n";
+    std:: cout <<"\n It is now:" <<year << ".\n\n";
 
-           std:: cout << "the year " << year++ <<"passes. \n";
-           std:: cout << "the year " << year++ <<"passes. \n";
-           std:: cout << "the year " << year++ <<"passes. \n";
-           std:: cout << "\nIt is now" <<year <<".";
-
-
-     return (year);
-       }
-
-       //öncelik
-       int oncelik (int p){
-
-           return (p);
+    std:: cout << "the year " << year++ <<"passes. \n";
+    std:: cout << "the year " << year++ <<"passes. \n";
+    std:: cout << "the year " << year++ <<"passes. \n";
+    std:: cout << "\nIt is now" <<year <<".";
 
 
-       }
-        // if komutu örneği
-       int  ifkomutu (int e){
+    return (year);
+}
 
-           std:: cout <<"Enter a grade (1-100): ";
+//öncelik
+int oncelik (int p){
 
-           if (e<=70)
-             std::cout <<"\nPass\n";
+    return (p);
 
-           else if (e<=100)
-               std:: cout <<"\n yes\n";
-           else
-               std:: cout <<"\nFail\n";
-           return (e);
-       }
-       // if ile dışarıdan parametre alıcaz!!ve iç içe if komutlarını yapamadım
 
-           int ornek2 (int zombies ){
+}
+// if komutu örneği
+int  ifkomutu (int e){
 
-               if (zombies ==0)
+    std:: cout <<"Enter a grade (1-100): ";
 
-                   std:: cout <<"no more zombies\n";
+    if( e >= 0 && e <= 100 ){
 
-               else
+        if (e <= 70){
+            std::cout <<"\nPass\n";
 
-                   std::cout <<"Beware the zombie apocalypse!\n";
+        }else if( e <= 100 ){
+            std:: cout <<"\n yes\n";
 
-               return (zombies);
-"
+        }else{
+            std:: cout <<"\nFail\n";
+        }
+
+    }else{
+        std::cout << "Lütfen Geçerli Not Giriniz\n";
+    }
+
+
+    if( e <= 70 ){
+
+        int a = e*2;
+    }
 
 
 
-           }
+    std::cout << "sdazfgdsfg";
+
+
+    return (e);
+}
+// if ile dışarıdan parametre alıcaz!!ve iç içe if komutlarını yapamadım
+
+int ornek2 (int zombies ){
+
+    if (zombies ==0)
+
+        std:: cout <<"no more zombies\n";
+
+    else
+
+        std::cout <<"Beware the zombie apocalypse!\n";
+
+    return (zombies);
+}
 
 
 
